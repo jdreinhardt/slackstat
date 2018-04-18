@@ -18,6 +18,7 @@ Modules
 * ADVISORY_LIMIT, WARNING_LIMIT, DANGER_LIMIT - Sets the percentage thresholds to send notifications
 * SLACK_WEBHOOK - URL of pre-assinged incoming webhook in Slack
 * CHANNEL_OVERRIDE - Allows for override of Slack channel specified in webhook configuration. Valid parameters - '', #<channel name>, @<username>
-* USERNAME_OVERRIDE - Allows for override of bot username in Slack. Valid parameters - '', SystemID, any text
   * ie. USERNAME_OVERRIDE = #general
+  * ie. USERNAME_OVERRIDE = @jdreinhardt
+* USERNAME_OVERRIDE - Allows for override of bot username in Slack. Valid parameters - '', SystemID, any text
 * ICON_OVERRIDE - Allows for override of bot icon in Slack. Valid parameters - '', full URL of image
